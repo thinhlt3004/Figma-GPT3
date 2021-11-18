@@ -1,0 +1,44 @@
+.gpt3__posibility {
+  padding: 0px 219px 0px 177px;
+  display: flex;
+  align-items: center;
+  font-family: var(--font-family);
+}
+.gpt3__posibility-left {
+  margin-right: 19px;
+}
+.gpt3__posibility-right {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.gpt3__posibility-right h4 {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 30px;
+  /* identical to box height, or 187% */
+
+  color: #71e5ff;
+}
+.gpt3__posibility-right h1 {
+  font-weight: 800;
+  font-size: 34px;
+  line-height: 45px;
+  margin: 10px 0px 23px 0px;
+}
+.gpt3__posibility-right p {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 30px;
+  color: #81afdd;
+}
+
+.gpt3__posibility-right h4:last-child {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 30px;
+    color: #FF8A71;
+    margin-top: 31px;
+  }
+  

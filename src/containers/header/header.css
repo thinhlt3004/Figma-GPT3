@@ -1,0 +1,107 @@
+.gpt3__header {
+  display: flex;
+  flex-direction: row;
+}
+
+.gpt3__header-content {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  margin-right: 5rem;
+}
+
+.gpt3__header-content h1 {
+  font-family: var(--font-family);
+  font-weight: 800;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 62px;
+  line-height: 75px;
+  /* or 121% */
+
+  letter-spacing: -0.04em;
+}
+
+.gpt3__header-content p {
+  font-family: var(--font-family);
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 27px;
+  color: var(--font-text);
+  margin-top: 1.5rem;
+  color: #81afdd;
+}
+.gpt3__header-content-input {
+  width: 100%;
+  margin: 2rem 0 1rem;
+  display: flex;
+}
+.gpt3__header-content-input input {
+  font-family: var(--font-family);
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 27px;
+  flex: 2;
+  width: 100%;
+  min-height: 50px;
+  color: #fff;
+  background: var(--color-footer);
+  border: 2px solid var(--color-footer);
+  outline: none;
+  padding: 0 1rem;
+  /* border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px; */
+  border-radius: 5px 0px 0px 5px;
+}
+.gpt3__header-content-input button {
+  flex: 0.6;
+  width: 100%;
+  background: #ff4820;
+  border-radius: 0px 5px 5px 0px;
+  /* transform: matrix(-1, 0, 0, 1, 0, 0); */
+  font-family: var(--font-family);
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 27px;
+  color: #ffffff;
+  padding: 20px 26px 26px 34px;
+  cursor: pointer;
+  outline: none;
+  border: none;
+}
+
+.gtp3__header-content-people{
+    display: flex;
+    align-items: center;
+}
+
+.gtp3__header-content-people img {
+  width: 181.79px;
+  height: 38px;
+  margin-right: 13px;
+  
+}
+.gtp3__header-content-people p{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 38px;
+    /* identical to box height, or 313% */
+    color: #FFFFFF;
+    margin-bottom: 23px;
+}
+
+
+
+
+.gtp3__header-image {
+  flex: 1;
+}
+.gtp3__header-image img {
+  width: 100%;
+}

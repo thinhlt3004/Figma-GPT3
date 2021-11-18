@@ -1,0 +1,16 @@
+.gt3__brand-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 126px;
+  flex-wrap: wrap;
+  overflow: hidden;
+}
+.gt3__brand-container img {
+  width: 71.1px;
+  height: 24.15px;
+  object-fit: contain;
+  margin-right: 46px;
+  margin: 10px;
+  align-items:center;
+}

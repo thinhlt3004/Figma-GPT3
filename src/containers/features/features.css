@@ -1,0 +1,33 @@
+.gt3__features-container {
+  margin-top: 201px;
+  padding: 0px 146px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 109px;
+}
+
+.gt3__features-left {
+  flex: 1;
+  margin-right: 140px;
+}
+
+.gt3__features-right {
+  flex: 2;
+}
+.gt3__features-left p:first-child {
+  color: var(--gradient-text);
+  font-family: var(--font-family);
+  font-weight: 800;
+  font-size: 34px;
+  line-height: 45px;
+  width: 426px;
+  height: 180px;
+}
+
+.gt3__features-left p:last-child {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 30px;
+  color: var(--color-subtext);
+  margin-top: 34px;
+}

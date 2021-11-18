@@ -1,0 +1,107 @@
+.gpt3__footer0-container {
+  font-family: var(--font-family);
+  background: #031b34;
+  color: #fff;
+}
+.gpt3__footer-top {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.gpt3__footer-top h1 {
+  margin: 175px 310px 0px;
+  font-weight: 800;
+  font-size: 62px;
+  line-height: 75px;
+  /* or 121% */
+
+  text-align: center;
+  letter-spacing: -0.04em;
+}
+.gpt3__footer-top button {
+  border: 1px solid #ffffff;
+  box-sizing: border-box;
+  font-size: 18px;
+  line-height: 21px;
+  /* width: 218px;
+  height: 65px; */
+  padding: 20px 24px;
+  background-color: #031b34;
+  color: #fff;
+  margin-top: 64px;
+  margin-bottom: 180px;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.gpt3__footer-top button:focus {
+  outline: none;
+}
+
+.gpt3__footer-bottom {
+  display: flex;
+  padding: 0px 208px;
+}
+
+.gpt3__footer-end {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 83px;
+  padding-bottom: 27px;
+}
+
+.gpt3__footer-end span {
+  font-size: 12px;
+  line-height: 14px;
+  font-feature-settings: "liga" off;
+}
+
+.gpt3__footer-left {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+.gpt3__footer-logo {
+  width: 118px;
+  height: 30px;
+  margin-bottom: 25px;
+  object-fit: cover;
+}
+
+.gpt3__footer-left h4 {
+  font-size: 12px;
+  line-height: 14px;
+  width: 168px;
+  height: 30px;
+  font-weight: normal;
+}
+
+.gpt3__footer-right {
+  display: flex;
+  justify-content: space-between;
+  flex: 2;
+}
+
+.gpt3__footer-menu-items {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-between; */
+}
+
+.gpt3__footer-menu-items span:first-child {
+  margin-bottom: 36px;
+  font-size: 14px;
+  line-height: 16px;
+  font-weight: bold;
+}
+
+.gpt3__footer-menu-items span {
+  margin-bottom: 26px;
+  font-size: 12px;
+  line-height: 14px;
+  cursor: pointer;
+}
